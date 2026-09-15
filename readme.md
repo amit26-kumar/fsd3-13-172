@@ -77,3 +77,16 @@ server returns data only not html content because
 html contents will be retain by front end developer. The data is in JSON format
 
 - JSON format-: it always stores data in key value pair enclosed by "{}". Array can be stored by "[]". One pair of curly bracket will represent one object and its property will be seperated by ",".
+
+
+## Headers 
+headers is used to tell the client , the type of data sent by the server it maybe html file , json data , plain text files , css file , any tokens (for login)
+
+1.  text/ plain -> text file
+2. text/html -> html contents/ file
+3. application/json -> json contents/file
+4. text/css -> stylesheet
+5. application/form-data -> for uploading file
+6. application/auth -> for tokens
+   this 
+7. 
